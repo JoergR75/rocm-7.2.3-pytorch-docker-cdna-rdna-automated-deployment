@@ -118,7 +118,7 @@ More details about the ROCm driver version can be reviewed:
 apt show rocm-libs -a
 ```
 
-<img width="970" height="447" alt="image" src="https://github.com/user-attachments/assets/c68b2453-a2c4-4d9f-8197-cf23f7a1291b" />
+<img width="2508" height="717" alt="image" src="https://github.com/user-attachments/assets/6ade4a74-deea-4c4e-932d-b3e82bdc8d10" />
 
 ## 📶 ROCm Bandwidth Test
 
