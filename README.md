@@ -98,7 +98,7 @@ This script creates a simple diagnostic python file (test.py) to verify that PyT
 What it does:
 
 - Shows the CPU and installed memory
-- Prints the PyTorch version and ROCm version.
+- Prints the ROCm, PyTorch and Transformers version.
 - Checks if ROCm is available and how many GPUs are detected.
 - Displays the name of the first GPU (if available).
 - Creates two random 3×3 tensors directly on the GPU (if available).
@@ -111,7 +111,7 @@ python3 test.py
 ```
 Expected Output Example:
 
-<img width="800" height="277" alt="image" src="https://github.com/user-attachments/assets/25770742-8813-4269-882e-fc6f30559c8f" />
+<img width="1235" height="719" alt="image" src="https://github.com/user-attachments/assets/683618e4-cf06-44a0-928c-2b9f2ef4241f" />
 
 More details about the ROCm driver version can be reviewed:
 ```bash
