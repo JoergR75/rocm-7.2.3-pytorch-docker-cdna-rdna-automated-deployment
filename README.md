@@ -32,7 +32,7 @@ If an existing ROCm installation is detected, it removes ROCm and related packag
 | **GPUs**          | AMD **CDNA1** • **CDNA2** • **CDNA3** • **CDNA4** • **RDNA3** • **RDNA4**              |
 | **APUs**        | AMD **Strix** • **Strix Halo**                                       |
 | **ROCm**          | 7.2.3                                                |
-| **PyTorch**       | torch 2.12.0.dev20260401+rocm7.2, torchvision 0.27.0.dev20260402+rocm7.2       |       |
+| **PyTorch**       | torch 2.11.0+rocm7.2, torchvision 0.26.0+rocm7.2       |       |
 
 **⚠️ Note**: **Ubuntu 20.04.x (Focal Fossa)** is **not supported**. The last compatible ROCm version for 20.04 is **6.4.0**.
 
