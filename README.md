@@ -69,14 +69,14 @@ Install **Ubuntu 22.04.5 LTS** or **Ubuntu 24.04.4 LTS** (Server or Desktop vers
 
 ### 2️⃣ **Download the Script from the Repository**
 ```bash
-wget https://raw.githubusercontent.com/JoergR75/rocm-7.2.1-pytorch-docker-cdna-rdna-automated-deployment/refs/heads/main/script_module_ROCm_721_Ubuntu_22.04-24.04_pytorch_server.sh
+wget https://raw.githubusercontent.com/JoergR75/rocm-7.2.3-pytorch-docker-cdna-rdna-automated-deployment/refs/heads/main/script_module_ROCm_723_Ubuntu_22.04-24.04_pytorch_server.sh
 ```
 
 <img width="973" height="276" alt="image" src="https://github.com/user-attachments/assets/a0b2c4a2-69fd-4a94-9c48-27aaf35dc2ac" />
 
 ### 3️⃣ **Run the Installer**
 ```bash
-bash script_module_ROCm_721_Ubuntu_22.04-24.04_pytorch_server.sh
+bash script_module_ROCm_723_Ubuntu_22.04-24.04_pytorch_server.sh
 ```
 **⚠️ Note**: Entering the user password may be required.
 
