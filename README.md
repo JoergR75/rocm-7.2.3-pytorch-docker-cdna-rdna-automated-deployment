@@ -212,7 +212,7 @@ docker pull vllm/vllm-openai-rocm:nightly-0c620d2e083a49ba40c2a5df318fa246d7e7a5
 <img width="763" height="590" alt="image" src="https://github.com/user-attachments/assets/7e13abbb-73c4-4d95-9204-2f240837c625" />
 
 Further vLLM Docker versions for RDNA4 can be verified on Docker Hub:  
-https://hub.docker.com/r/rocm/vllm-dev/tags?name=navi
+https://hub.docker.com/r/rocm/vllm-dev/tags?name=navi or https://hub.docker.com/r/vllm/vllm-openai-rocm/tags
 
 or for **CDNA** architecture
 ```bash
