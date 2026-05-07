@@ -206,7 +206,7 @@ Use the container image you need.
 
 **RDNA4** architecture running on Ubuntu 24.04
 ```bash
-docker pull rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0
+docker pull vllm/vllm-openai-rocm:nightly-0c620d2e083a49ba40c2a5df318fa246d7e7a59b
 ```
 
 <img width="763" height="590" alt="image" src="https://github.com/user-attachments/assets/7e13abbb-73c4-4d95-9204-2f240837c625" />
@@ -226,7 +226,8 @@ sudo docker run -it \
     --device=/dev/dri \
     --security-opt seccomp=unconfined \
     --group-add video \
-    rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0
+    --entrypoint /bin/bash \
+    vllm/vllm-openai-rocm:nightly-0c620d2e083a49ba40c2a5df318fa246d7e7a59b
 ```
 
 <img width="618" height="124" alt="image" src="https://github.com/user-attachments/assets/fa7e620f-d082-4c0e-802b-a3be7f9fbab7" />
