@@ -206,7 +206,7 @@ Use the container image you need.
 
 **RDNA4** architecture running on Ubuntu 24.04
 ```bash
-docker pull vllm/vllm-openai-rocm:nightly-0c620d2e083a49ba40c2a5df318fa246d7e7a59b
+docker pull vllm/vllm-openai-rocm:v0.20.1
 ```
 
 <img width="763" height="590" alt="image" src="https://github.com/user-attachments/assets/7e13abbb-73c4-4d95-9204-2f240837c625" />
@@ -227,7 +227,7 @@ sudo docker run -it \
     --security-opt seccomp=unconfined \
     --group-add video \
     --entrypoint /bin/bash \
-    vllm/vllm-openai-rocm:nightly-0c620d2e083a49ba40c2a5df318fa246d7e7a59b
+    vllm/vllm-openai-rocm:v0.20.1
 ```
 
 <img width="618" height="124" alt="image" src="https://github.com/user-attachments/assets/fa7e620f-d082-4c0e-802b-a3be7f9fbab7" />
@@ -256,7 +256,7 @@ sudo docker run -it \
     --device=/dev/dri/renderD129 \
     --security-opt seccomp=unconfined \
     --group-add video \
-    rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0
+    vllm/vllm-openai-rocm:v0.20.1
 ```
 GPU2 has been added to the container
 
@@ -279,7 +279,7 @@ sudo docker ps -a
 
 4️⃣ In this example, we want to save the running container `loving_wescoff` as a new image named `rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0_2`:
 ```bash
-docker commit loving_wescoff rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0_2
+docker commit loving_wescoff vllm/vllm-openai-rocm:v0.20.1_2
 ```
 
 <img width="842" height="46" alt="image" src="https://github.com/user-attachments/assets/968c0c38-20c9-4cac-8928-c4a7797e15a7" />
@@ -299,7 +299,7 @@ sudo docker run -it \
     --device=/dev/dri/renderD129 \
     --security-opt seccomp=unconfined \
     --group-add video \
-    rocm/vllm-dev:rocm7.2.1_navi_ubuntu24.04_py3.12_pytorch_2.9_vllm_0.16.0_2
+    vllm/vllm-openai-rocm:v0.20.1_2
 ```
 
 <img width="828" height="395" alt="image" src="https://github.com/user-attachments/assets/e7349f84-b08b-4500-988d-19aff77025be" />
